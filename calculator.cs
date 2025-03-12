@@ -22,11 +22,11 @@ namespace PRAK_1
             Console.WriteLine("hASIL penambahan " + a + " + " + b + " = " + Penambahan(a, b));
 
             Console.WriteLine("hASIL pegurangan " + a + " - " + b + " = " + Pengurangan(a, b));
-            Console.WriteLine("hASIL perkalian " + a + " * " + b + " = " + Perkalian(a, b));
-            Console.WriteLine("hASIL pembagian " + a + " / " + b + " = " + Pembagian(a, b));
+            Console.WriteLine("hASIL perkalian " + a + " * " + b  + " = " + Perkalian(a, b));
+            Console.WriteLine("hASIL pembagian " + a + " / " + b +  " = " + Pembagian(a, b));
 
             Console.WriteLine("\nTekan sembarang key untuk keluyar");
-            Console.ReadKey();
+                Console.ReadKey();
         }
         static float Penambahan(float a, float b)
         {
